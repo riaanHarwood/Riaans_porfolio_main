@@ -58,9 +58,10 @@ View Portfolio Website - **TO BE UPDATED**
 ```
 Riaans_portfolio_main/
 │── index.html        # Main entry point
-│── about.html        # About page (if separate)
-│── projects.html     # Projects showcase (if separate)
-│── contact.html      # Contact form/page (if separate)
+│── about.html        # About  
+│── experience.html   # Experience
+│── projects.html     # Projects
+│── contact.html      # Contact form/page 
 │
 ├── css/
 │   └── style.css     # Main stylesheet
