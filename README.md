@@ -51,6 +51,10 @@ View Portfolio Website - **TO BE UPDATED**
 **JavaScript** (ES6+) – Interactivity, DOM manipulation, smooth scrolling, and form handling
 
 
+
+
+
+
 **Project Structure**
 ```
 Riaans_portfolio_main/
@@ -69,3 +73,54 @@ Riaans_portfolio_main/
 │
 └── README.md         # Documentation
 ```
+
+
+
+
+🚀 **Getting Started**
+Want to run my code locally? Please follow these instructions to check it out: 
+1. **Clone the repository** 
+git clone https://github.com/<your-username>/Riaans_portfolio_main.git
+
+2. **Navigate into the project folder**
+cd Riaans_portfolio_main
+
+3. **Open in a browser**
+Simply open index.html in your browser, or use a live server extension (VS Code recommended) for better development experience.
+
+
+
+
+
+**Roadmap**
+Future improvements needed: 
+ Add dark mode support 🌙
+
+ + Include animations using CSS/JavaScript
+
+ + Integrate a blog section
+
+ + Add backend for contact form (Node.js or Firebase)
+
+
+
+
+📧 **Contact**
+
+👤 **Riaan Harwood**
+
+GitHub: @riaanHarwood
+
+LinkedIn: https://www.linkedin.com/in/riaan-harwood/
+
+Email: riaanh27@hotmail.com
+
+
+
+
+
+
+📜 **License**
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
