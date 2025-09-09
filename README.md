@@ -1,7 +1,7 @@
 # Riaans_porfolio_main
 
 
-
+##
 📖 **Introduction**
 
 This is my personal portfolio website, which I built using HTML, CSS, and JavaScript.
@@ -12,7 +12,7 @@ The site is where I showcase my projects, skills, and experience as a developer.
 
 
 
-
+##
 🌐 Live Demo
 
 View Portfolio Website - **TO BE UPDATED** 
@@ -21,7 +21,7 @@ View Portfolio Website - **TO BE UPDATED**
 
 
 
-
+##
 📌 **Features**
 + Fully Responsive Design – Optimized for desktop, tablet, and mobile devices.
 
@@ -41,7 +41,7 @@ View Portfolio Website - **TO BE UPDATED**
 
 
 
-
+##
 🛠 **Tech Stack**
 
 **HTML5** – Structure and semantic markup
@@ -54,7 +54,7 @@ View Portfolio Website - **TO BE UPDATED**
 
 
 
-
+##
 **Project Structure**
 ```
 Riaans_portfolio_main/
@@ -76,7 +76,7 @@ Riaans_portfolio_main/
 
 
 
-
+##
 🚀 **Getting Started**
 Want to run my code locally? Please follow these instructions to check it out: 
 1. **Clone the repository** 
@@ -91,7 +91,7 @@ Simply open index.html in your browser, or use a live server extension (VS Code 
 
 
 
-
+##
 **Roadmap**
 Future improvements needed: 
  Add dark mode support 🌙
@@ -104,7 +104,7 @@ Future improvements needed:
 
 
 
-
+##
 📧 **Contact**
 
 👤 **Riaan Harwood**
@@ -117,9 +117,7 @@ Email: riaanh27@hotmail.com
 
 
 
-
-
-
+##
 📜 **License**
 
 This project is licensed under the MIT License – see the LICENSE
