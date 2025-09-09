@@ -1,7 +1,6 @@
 # Riaans_porfolio_main
 
 
-##
 📖 **Introduction**
 
 This is my personal portfolio website, which I built using HTML, CSS, and JavaScript.
