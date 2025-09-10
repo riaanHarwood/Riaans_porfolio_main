@@ -243,15 +243,6 @@ section{
     background-clip: text;
     color: transparent;
 }
-::-webkit-scrollbar{
-    width: 20px;
-}
-::-webkit-scrollbar-track{
-    background-color: rgb(219, 219, 219);
-}
-::-webkit-scrollbar-thumb{
-    background: linear-gradient(to bottom, rgb(0, 157, 255), rgb(255, 0, 60));
-}
 
 
 /* Projects */
