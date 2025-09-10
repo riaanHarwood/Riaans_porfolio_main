@@ -178,7 +178,7 @@ section{
 }
 
 
-/* Experience Sectin */
+/* Experience Section */
 
 .section-title{
     text-align: center;
@@ -242,4 +242,56 @@ section{
 }
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(to bottom, rgb(0, 157, 255), rgb(255, 0, 60));
+}
+
+
+/* Projects */
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); /* increased from 300px to 350px */
+    gap: 2rem;
+}
+.project-card{
+    padding: 3rem 2rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.project-card:hover{
+    background-color: rgb(224, 224, 224);
+    color: black;
+    transform: translate(-10px) scale(1.02);
+
+}
+
+.project-card img{
+    width: 300px;     /* Fixed width */
+    height: 200px;    /* Fixed height */
+    object-fit: cover; /* Ensures the image fills the box without distortion */
+    border-radius: 1rem;
+}
+
+.project-card:hover .btn{
+    border: 2px solid black;
+    color: black;
+}
+
+.project-card:hover .btn:hover{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.project-card h3{
+    font-size: 2rem;
+    font-weight: 500;
 }
