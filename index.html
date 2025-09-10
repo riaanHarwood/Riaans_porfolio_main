@@ -6,6 +6,7 @@
     <title>Riaan Harwood Porfolio</title>
     <link rel="stylesheet" href="porfolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="porfolio.jss">
 </head>
 <body>
     <header class="header">
@@ -58,7 +59,6 @@
             </div>
         </div>
     </section>
-
 
 
     <section id="experience" class="experience">
@@ -165,6 +165,18 @@
         </div>
     </section>
 
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+            <form action="https://formspree.io/f/xkgvyvol" method="POST" enctype="text/plain" class="contact-form">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="contact" placeholder="Contact Number" required>
+                <textarea name="enquiry" rows="5" placeholder="Your Enquiry" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
     <script src="porfolio.js"></script>
 </body>
