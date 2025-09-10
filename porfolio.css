@@ -295,3 +295,31 @@ section{
     font-size: 2rem;
     font-weight: 500;
 }
+
+
+.view-more-container {
+    display: flex;           
+    justify-content: center;  
+    width: 100%;               
+    margin-top: 2rem;          
+}
+
+.view-more-btn {
+    display: inline-block;    
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 1rem;
+    text-decoration: none;     
+    color: black;              
+    transition: 0.3s ease-in-out;
+}
+
+.view-more-btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+

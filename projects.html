@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>More Projects</title>
+    
+    <style>
+        /* back button*/
+
+        .back-btn {
+            position: absolute;     /* position relative to viewport */
+            top: 20px;              /* distance from top */
+            left: 20px;             /* distance from left */
+            display: inline-flex;   /* icon + text */
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            border: 2px solid black;
+            border-radius: 1rem;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            background-color: white; /* optional for contrast */
+            z-index: 10;            /* ensures it stays on top */
+        }
+
+        .back-btn:hover {
+            background-color: black;
+            color: white;
+            transform: scale(1.05);
+        }
+
+
+
+        /*To be updated*/
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* full viewport height */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+    </style>
+</head>
+<a href="index.html" class="btn back-btn">
+    <i class="fa-solid fa-arrow-left"></i> Back
+</a>
+<body>
+    <h1>More projects coming soon</h1>
+</body>
+</html>
+
+
