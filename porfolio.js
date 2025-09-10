@@ -1,7 +1,7 @@
-/*Contact form submission*/
+/* Contact form submission */
 
 const form = document.querySelector(".contact-form");
-  const status = document.querySelector("#form-status");
+  const ticket = document.querySelector("#ticket");
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -11,10 +11,14 @@ const form = document.querySelector(".contact-form");
       body: data,
       headers: { 'Accept': 'application/json' }
     });
+
     if (response.ok) {
-      status.textContent = "Thanks for your enquiry! I’ll get back to you soon.";
       form.reset();
+      ticket.classList.add("show"); // Show the ticket
+      setTimeout(() => {
+        ticket.classList.remove("show"); // Hide after 20 seconds
+      }, 20000);
     } else {
-      status.textContent = "Oops! Something went wrong. Please try again.";
+      alert("Oops! Something went wrong. Please try again.");
     }
-  });
+});
