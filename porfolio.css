@@ -279,6 +279,11 @@ section{
     object-fit: cover; /* Ensures the image fills the box without distortion */
     border-radius: 1rem;
 }
+/*live demo*/
+
+
+
+
 
 .project-card:hover .btn{
     border: 2px solid black;
