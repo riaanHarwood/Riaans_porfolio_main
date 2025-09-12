@@ -426,3 +426,121 @@ footer ul li a{
     text-align: center;
     margin-bottom: 5rem;
 }
+
+
+
+/*Responsive - Mobile View*/
+@media(max-width: 1280px) {
+    header{
+        padding: 1rem 2rem;
+        gap: 2rem;
+    }
+    .about .about-container{
+        gap: 3rem;
+    }
+    .experience-info{
+        flex-direction: column;
+    }
+    .input-box input{
+        padding: 2rem 5rem;
+        font-size: 2.5rem;
+    }
+    .input input::placeholder{
+        font-size: 2.5rem;
+    }
+    .input-box i{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 768px) {
+    header{
+        gap: 1rem;
+        padding: 1rem 1rem;
+    }
+    header .logo{
+        font-size: 1rem;
+    }
+    header .visit-btn{
+        display: none;
+    }
+
+    .about-container{
+        flex-direction: column;
+    }
+
+    .input-box input{
+        padding: 1rem 2rem;
+        font-size: 1.8rem;
+    }
+    input-box input::placeholder{
+        font-size: 1.5rem;
+    }
+    .input-box i{
+        display: none;
+    }
+    .grid {
+        grid-template-columns: 1fr; /* Single column */
+        width: 100%;
+        justify-items: center;      /* Center the cards */
+    }
+    .experience-info img{
+        width: 70vw;
+    }
+    footer ul {
+        flex-direction: column;
+        gap: 3rem; /* smaller gap for mobile */
+        margin-bottom: 100px;
+    }
+
+    footer {
+        margin-top: 10%;
+        text-align: center;
+        height: auto; /* allow footer height to expand */
+        padding: 2rem 0;
+    }
+}
+
+
+@media(max-width: 600px) {
+    
+    #menu-icon{
+        display: block;      /* show the icon on mobile */
+        cursor: pointer;     /* show pointer on hover */
+    }
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        margin-top: 1rem;
+        width: 100%;
+        padding: 1rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: rgb(0,0,0,0.9);
+        border-radius: 3rem;
+        display: none;
+        font-size: 1.5rem;
+    }
+
+    .nav-links li{
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+
+    .nav-links.active{
+        display: block;
+    }
+    header{
+        padding: 1rem 3rem;
+        gap: 2rem;
+    }
+    header .logo{
+        font-size: 1.5rem;
+    }
+    .about-container img{
+        width: 80vw;
+    }
+    
+}

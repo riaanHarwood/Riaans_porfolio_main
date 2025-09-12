@@ -1,4 +1,18 @@
 /* Contact form submission */
+const menuIcon = document.querySelector('#menu-icon');
+const navLinks = document.querySelector('.nav-links');
+const navItems = document.querySelectorAll('.nav-links li a');
+
+menuIcon.onclick = () => {
+  navLinks.classList.toggle('active');
+}
+
+navItems.forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+  });
+});
+
 
 const form = document.querySelector(".contact-form");
   const ticket = document.querySelector("#ticket");
@@ -22,3 +36,6 @@ const form = document.querySelector(".contact-form");
       alert("Oops! Something went wrong. Please try again.");
     }
 });
+
+
+
