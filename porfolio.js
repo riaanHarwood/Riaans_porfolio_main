@@ -14,6 +14,25 @@ navItems.forEach(link => {
 });
 
 
+// Select all "Live Demo" buttons
+const liveDemoButtons = document.querySelectorAll('.btn');
+
+
+
+const popup = document.createElement('div');
+popup.className = 'demo-popup';
+popup.innerText = 'Coming soon!';
+document.body.appendChild(popup);
+
+liveDemoButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    popup.classList.add('show'); // show popup
+    setTimeout(() => {
+      popup.classList.remove('show'); // hide after 3 seconds
+    }, 5000);
+  });
+});
+
 const form = document.querySelector(".contact-form");
   const ticket = document.querySelector("#ticket");
 
